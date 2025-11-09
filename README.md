@@ -6,17 +6,18 @@ It works offline, supports user authentication, and allows real-time chat with a
 
 ⚙️ Technologies Used
 
-Frontend: React + Tailwind CSS
-
-Backend: Node.js + Express
-
-Database: MongoDB
-
-AI Model: Ollama (Llama3.2:3b)
-
-Authentication: JWT + bcryptjs
+      Frontend: React + Tailwind CSS
+      
+      Backend: Node.js + Express
+      
+      Database: MongoDB
+      
+      AI Model: Ollama (Llama3.2:3b)
+      
+      Authentication: JWT + bcryptjs
 
 🚀 How to Run the Project
+
 1️⃣ Clone the Repository
 git clone https://github.com/yamuna-11-yamuna/BotSpoof.git
 cd BotSpoof
@@ -36,30 +37,30 @@ OLLAMA_URL=http://localhost:11434/api/generate
 OLLAMA_MODEL=llama3.2:3b
 
 3️⃣ Start the Frontend
-cd ../frontend
-npm install
-npm run dev
-
-
-Then open http://localhost:5173
- in your browser.
+   cd ../frontend
+   npm install
+   npm run dev
+   
+   
+   Then open http://localhost:5173
+    in your browser.
 
 4️⃣ Start Ollama
 
 In a separate PowerShell window:
-
-ollama serve
-ollama pull llama3.2:3b
+  
+  ollama serve
+  ollama pull llama3.2:3b
 
 💡 Features
 
-Sign Up / Sign In Authentication
-
-Secure JWT Token Login
-
-Offline AI Chat using Ollama
-
-Stores chat history in MongoDB
+     Sign Up / Sign In Authentication
+     
+     Secure JWT Token Login
+     
+     Offline AI Chat using Ollama
+     
+     Stores chat history in MongoDB
 
 Modern, responsive UI
 

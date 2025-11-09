@@ -11,6 +11,7 @@ It works offline, supports user authentication, and allows real-time chat with a
     *Authentication: JWT + bcryptjs
 
 🚀 How to Run the Project
+
 1️⃣ Clone the Repository
     git clone https://github.com/yamuna-11-yamuna/BotSpoof.git
     cd BotSpoof
